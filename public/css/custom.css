@@ -1,0 +1,467 @@
+body{
+	overflow-x: hidden;
+}
+.nav{
+	width: 40px;
+}
+
+.logos{
+	background-position: 0px 0px;
+	background-image: url(../imgs/fotos/logos.png);
+	background-repeat: no-repeat;
+	width: 400px;
+}
+
+.containerS {
+  position: relative;
+  left: 50px;
+  width: 200px;
+}
+
+.containerB {
+  position: relative;
+  left: 350px;
+  top: -200px;
+  width: 200px;
+}
+.containerG {
+  position: relative;
+  left: 640px;
+  top: -410px;
+  width: 230px;
+}
+
+.image {
+  display: inline-block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #94C204;
+  overflow: hidden;
+  width: 200px;
+  height: 0;
+  transition: .5s ease;
+}
+
+.containerS:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.containerB:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+.containerG:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  color: white;
+  font-size: 11.5px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  text-align: left;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+/*--------------------------------------------*/
+h3{
+	color: #FF6600;
+}
+h1{
+	margin-top: 30px;
+}
+div.descripcion{
+	border-radius: 10px 10px 10px 10px; 
+	height: 100px;
+	margin: 0px auto;
+	margin-bottom: 10px;
+	width: 600px;
+}
+div#home {
+	padding-top: 100px;
+}
+
+div.instituciones{
+	height: 400px;
+	margin-bottom: 100px;
+	margin: 0px auto;
+	position: relative;
+	top: 30px;
+	width: 400px;
+}
+div.remember{
+	top: -10px;
+}
+
+div.row{
+	margin-top: -80px;
+}
+
+div#r2{
+	margin-top: -70px;
+
+}
+button#boton0{
+	margin-top: 20px;
+	background-color: #5eb319;
+}
+button.boton{
+	max-width: 80%;
+	height: auto;
+	margin-top: 20px;
+
+}
+p.p1{
+	margin-top: 50px;
+}
+p.p2{
+	margin-top: -70px;
+	margin-left: -220px;
+	color: #FF6600;
+}
+div.seleccionar{
+	margin-top: 100px;
+	font-size: 16px;
+}
+
+button.boton{
+	width: 200px;
+	height: 200px;
+	
+
+}
+/*img.img{
+	position: relative;
+	height: 200px;
+	width: 200px;
+	margin-top: -6.5px;
+	margin-left: -13px;
+}*/
+
+#ba{
+	margin-bottom: 100px;
+}
+
+div.info{
+	display: inline-block;
+	height: 200px;
+	margin-top: 80px;
+	margin-bottom: 50px;
+	margin-left: -80px;
+	width: 900px;
+}
+.overlay{
+	text-align: center;
+}
+
+a{
+	color: white;
+	font-size: 20px;
+	position: relative;
+}
+
+hr{
+	background-color: white;
+}
+
+.logo{
+	background-image: url(../imgs/fotos/logo.png);
+	background-repeat: no-repeat;
+	background-size: 500px;
+	height: 130px;
+	left: -120px;
+	position: relative;
+	top: 100px;
+	width: 130px;
+}
+.parrafo{
+	background-image: url(../imgs/fotos/sena.jpg);
+	background-repeat: no-repeat;
+	background-size: 450px;
+	height: 470px;
+	margin-bottom: 80px;
+	margin-left: -120px;
+	margin-top: -640px;
+	width: 450px;
+}
+.formulario{
+	background-color: #027577;
+	color: white;
+	font-family: 'Acme', sans-serif;
+	height: 450px; 
+	margin-bottom: 170px;
+	margin-left: 600px;
+	margin-top: -12px;
+	position: relative;
+	text-align: center;
+	width: 340px;
+}
+.recuperar{
+	left: -3px;
+}
+
+#nuevo{
+	margin-top: 10px;
+}
+.bg{
+	background-color: #5eb319 !important;
+}
+
+.text-orange {
+	color: #FF6600 !important;
+}
+.gbt{
+	background-color: #FF6600;
+	color: white;
+}
+header{
+	background-color: #005F61;
+}
+.navbar-brand{
+	font-family: Berkshire Swash;
+	font-size: 25px;
+	left: 500px;
+}
+
+.inicio{
+	right: 300px;
+}
+footer {
+	background-color: #FF6600;
+	color: #fff;
+	margin-top: -50px;
+}
+
+footer p {
+	margin-bottom: 0.5rem;
+	margin-top: 0.5rem;
+}
+ul{
+	list-style: none;
+}
+ul#u1{
+	margin-left: 100px;
+}
+.rigth{
+	margin-right: 50px
+}
+
+/*----------------------Aprendiz---------------------*/
+.info{
+	left: 50px;
+	top: -10px;
+}
+p.exp{
+	text-align: justify;
+}
+.ejem{
+	left: 140px;
+	top: -250px;
+}
+div.ejem2{
+	position: relative;
+	right: 440px;
+	top: 250px;
+	height: 220px;
+}
+h3{
+	margin-left: 60px;
+}
+h3#j1{
+	margin-top: -40px;
+}
+h3#j2{
+	margin-top: 10px;
+}
+h3#t1{
+	margin-top: -60px;
+	margin-left: 10px;
+	color: #FF6600;
+}
+
+.test{
+	margin-top: -200px;
+	margin-left: 100px;
+}
+button{
+	margin: 10px;
+}
+
+div.btnJ2{
+	border: 1px;
+	display: inline-block;
+	margin: 10px;
+}
+.j4{
+	font-size: 20px;
+}
+
+#canvas{
+  border-radius: 50%;
+  width: 200px;
+}
+
+#primerjuego{
+	border: 1px solid gray;
+	width: 1200px;
+	margin: 0px auto;
+}
+
+#segundojuego{
+	border: 1px solid gray;
+	width: 1200px;
+	margin: 0px auto;
+}
+
+#tercerjuego{
+	border: 1px solid gray;
+	width: 1200px;
+	margin: 0px auto;
+}
+/*juego de memoria*/
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #fff;
+}
+
+.modal{
+	padding: 500px;
+
+}
+.todo {
+	max-width: 900px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+} 
+
+.img1 {
+	max-width: 100%;
+	height: 130px;
+	margin-top: 20px;
+}
+.memoria{
+
+  margin: 50px auto;
+
+  border-radius: 10px;
+  position: relative;
+  background: #238276;
+}
+
+.memoria:after  {
+	content: "";
+	display: block;
+	clear: both;
+}
+ 
+.carta {
+	width: 14%;
+	margin: 1% 1%;
+	height: 150px;
+	border-radius: 8px;
+	float: left;
+	cursor: pointer;
+  
+  
+}
+
+.inner-wrap {
+	width: 100%;
+	height: 100%;
+	transition: all 0.6s;.
+	-webkit-transition: all 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+
+.frente {
+	background: #5eb319 top center;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	z-index: 2;
+	transform: rotateY(0deg);
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+  transition: background 0.5s;
+}
+
+.flipped {
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+
+}
+
+.frente, .atras {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.atras {
+	transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	text-align: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.30);
+  
+}
+
+.contador p {
+    font-size: 30px;
+    font-family: Lucida Console, Courier, monospace;
+    color: rgb(217, 103, 29);
+}
+
+.contador {
+    position: absolute;
+    right: -185px;
+    top: 58px;
+}
+p.counter {
+    text-align: center;
+    font-family: Lucida Console, Courier, monospace;
+}
+
+
+.todo > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.frente:hover {
+  background: #a9e478;
+  cursor: pointer;
+} 
+
+/*juego de memoria 3*/
+
+
+
